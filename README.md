@@ -57,9 +57,9 @@ This project simulates a temperature-controlled heater system using an ESP32,DHT
 
 # Heater Control Logic
 
-- Activates green LED if in `OVERHEATING` state
-- Turns on red LED if system is stable
-- Buzzer activates in `OVERHEAT` state
+- Activates red LED if in `OVERHEATING` state
+- Turns on green LED if system is stable
+- Buzzer activates in `OVERHEATING` state
 - LED bar graph shows current heating level
 
 ---
