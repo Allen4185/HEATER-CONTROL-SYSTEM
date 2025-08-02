@@ -1,6 +1,7 @@
 # HEATER-CONTROL-SYSTEM
 
 This project simulates a temperature-controlled heater system using an ESP32,DHT22 sensor,I2C LCD,LED indicators,buzzer, and a 10-segment LED bar graph. The system manages heater states (`Idle`, `Heating`, `Stabilizing`, `Target Reached`, `Overheat`) using FreeRTOS tasks and logs data via UART.
+To observe the full behavior of the system (state changes, LED indicators, buzzer alerts, etc.),vary the temperature readings from the DHT22 sensor. In the Wokwi simulator, click on the DHT22 sensor and adjust the temperature manually. This will trigger the heater control logic and reflect the changes in system states.
 
 ---
 
